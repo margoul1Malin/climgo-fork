@@ -60,20 +60,20 @@ export default function Hero() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Installateur de Chauffage, Climatisation & Pompe à chaleur
             </h2>
-            <nav className="flex flex-col sm:flex-row justify-center gap-4 space-x-16 my-8">
-              <Link href="/services/chauffage" className=" text-white font-serif text-2xl py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+            <nav className="flex flex-col sm:flex-row justify-center gap-4 space-x-16 my-8 text-center">
+              <Link href="/services/chauffage" className="w-full text-center text-white font-serif text-2xl py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
                 Chauffage
               </Link>
-              <Link href="/services/chauffage" className=" text-white font-serif text-2xl py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+              <Link href="/services/chauffage" className="w-full text-center text-white font-serif text-2xl py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
                 Climatisation
               </Link>
-              <Link href="/services/chauffage" className=" text-white font-serif text-2xl py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+              <Link href="/services/chauffage" className="w-full text-center text-white font-serif text-2xl py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
                 Pompe à chaleur
               </Link>
-              <Link href="/services/chauffage" className=" text-white font-serif text-2xl py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+              <Link href="/services/chauffage" className="w-full text-center text-white font-serif text-2xl py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
                 Eau chaude sanitaire
               </Link>
-              <Link href="/services/chauffage" className=" text-white font-serif text-2xl py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+              <Link href="/services/chauffage" className="w-full text-center text-white font-serif text-2xl py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
                 Maintenance
               </Link>
 
