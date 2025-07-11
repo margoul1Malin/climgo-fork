@@ -31,7 +31,7 @@ export default function Hero() {
 
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50 absolute top-0 left-0 w-full h-full">
+    <div className="flex flex-col min-h-screen absolute top-0 left-0 w-full h-full">
       
       <main className="flex-grow">
         {/* Hero Section avec carrousel d'images corrigé */}

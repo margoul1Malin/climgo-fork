@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Hero />
-      <div className="relative z-10">
+      <div className="relative z-10 bg-white">
         <Services />
         <Engagements />
         <Testimonials />
