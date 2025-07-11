@@ -71,12 +71,12 @@ export default function Header() {
                   Accueil
                 </Link>
                 <div className="relative group">
-                  <button className="text-white hover:text-blue-200 transition-colors flex items-center text-sm font-medium">
+                  <Link href="/services" className="text-white hover:text-blue-200 transition-colors flex items-center text-sm font-medium">
                     Nos Services
                     <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
-                  </button>
+                  </Link>
                   <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                     <div className="py-2">
                       <Link href="/chauffage" className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600">
@@ -130,7 +130,9 @@ export default function Header() {
                     Accueil
                   </Link>
                   <div className="space-y-2">
-                    <div className="text-white font-medium text-sm">Nos Services</div>
+                    <Link href="/services" className="text-white font-medium text-sm hover:text-blue-200 transition-colors">
+                      Nos Services
+                    </Link>
                     <div className="pl-4 space-y-2">
                       <Link href="/chauffage" className="block text-blue-200 hover:text-white transition-colors text-sm">
                         Chauffage
